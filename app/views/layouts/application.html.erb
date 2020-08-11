@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleApp</title>
+    <title>
+    <%= yield(:title) %> | <%= t "layout.aplication.title" %>
+    </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
