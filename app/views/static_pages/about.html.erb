@@ -1,15 +1,15 @@
-<% provide(:title, "About") %>
+<% provide :title, "About" %>
 <h1>About</h1>
 <p>
-  The <%= link_to "Ruby on Rails Tutorial", href="https://www.railstutorial.org/" %>, part of the
+  The <%= link_to "Ruby on Rails Tutorial", Settings.links.rails_tutorial.home_page %>, part of the
   <%= link_to "Learn Enough",
-  href="https://www.learnenough.com/" %>
+  Settings.links.learn_enough %>
   family of tutorials, is a
   <%= link_to "book",
-  href="https://www.railstutorial.org/book" %> and
-  <%= link_to "screencast series", href="https://screencasts.railstutorial.org/" %>
+  Settings.links.rails_tutorial.book_page %> and
+  <%= link_to "screencast series", Settings.links.rails_tutorial.screencasts_page %>
   to teach web development with
   <%= link_to "Ruby on Rails",
-  href="https://rubyonrails.org/" %>.
+  Settings.links.rails_tutorial.home_page %>.
   This is the sample app for the tutorial.
 </p>
