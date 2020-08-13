@@ -1,15 +1,17 @@
-<% provide :title, "About" %>
-<h1>About</h1>
+<% provide :title, t(".about_title") %>
+<h1><%= t ".heading" %></h1>
 <p>
-  The <%= link_to "Ruby on Rails Tutorial", Settings.links.rails_tutorial.home_page %>, part of the
-  <%= link_to "Learn Enough",
+  <%= link_to t(".message"), Settings.links.rails_tutorial.home_page %>
+  <%= t ".part" %>
+  <%= link_to t(".learn"),
   Settings.links.learn_enough %>
-  family of tutorials, is a
-  <%= link_to "book",
-  Settings.links.rails_tutorial.book_page %> and
-  <%= link_to "screencast series", Settings.links.rails_tutorial.screencasts_page %>
-  to teach web development with
-  <%= link_to "Ruby on Rails",
+  <%= t ".family" %>
+  <%= link_to t(".book"),
+  Settings.links.rails_tutorial.book_page %>
+  <%= t ".and" %>
+  <%= link_to t(".screen"), Settings.links.rails_tutorial.screencasts_page %>
+  <%= t ".teach" %>
+  <%= link_to t("ruby_on_rails"),
   Settings.links.rails_tutorial.home_page %>.
-  This is the sample app for the tutorial.
+  <%= t ".description_title" %>
 </p>

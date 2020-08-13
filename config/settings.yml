@@ -7,6 +7,7 @@ links:
     contact_page: https://www.railstutorial.org/contact
     screencasts_page: https://screencasts.railstutorial.org/
   learn_enough: https://www.learnenough.com/
+  gravartar: https://secure.gravatar.com/avatar/
 
 validations:
   name:

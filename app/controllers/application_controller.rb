@@ -2,10 +2,6 @@ class ApplicationController < ActionController::Base
   before_action :switch_locale
   # it run around all action run. this is filter action technical
 
-  def hello
-    render html: "hello,world!"
-  end
-
   def default_url_options
     {locale: I18n.locale}
   end

@@ -1,14 +1,16 @@
 <footer class="footer">
   <small>
-    The <%= link_to "Ruby on Rails Tutorial", Settings.links.rails_tutorial.home_page %>
-    by <%= link_to "Michael Hartl", Settings.links.rails_tutorial.author %>
+    <%= t ".description_title" %>
+    <%= link_to t("ruby_on_rails_tut"), Settings.links.rails_tutorial.home_page %>
+    <%= t ".description_detail" %>
+    <%= link_to t("ruby_on_rails_tut_author"), Settings.links.rails_tutorial.author %>
   </small>
 
   <nav>
     <ul>
-      <li><%= link_to "About", about_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
-      <li><%= link_to "News", Settings.links.rails_tutorial.home_page %></li>
+      <li><%= link_to t(".about_footer"), about_path %></li>
+      <li><%= link_to t(".contact_footer"), contact_path %></li>
+      <li><%= link_to t(".new_footer"), Settings.links.rails_tutorial.home_page %></li>
     </ul>
   </nav>
 </footer>

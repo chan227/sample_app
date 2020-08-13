@@ -1,0 +1,65 @@
+jp:
+  hello: "こんにちは"
+
+  layouts:
+    application:
+      title: "サンプルアプリ"
+    footer:
+      about_footer: "アブー"
+      contact_footer: "コンタクト"
+      description_title: "この"
+      description_detail: "をもって"
+      new_footer: " ニュー "
+    header:
+      logo: "サンプルアプリ"
+      help_header: "サービス"
+      home_header: "ホーム"
+      login_header: "ログイン"
+
+
+  ruby_on_rails: "Ruby on Rails"
+  ruby_on_rails_book: "Ruby on Rails Tutorial 本。"
+  ruby_on_rails_help: "Rails Tutorial ヘルプページ。"
+  ruby_on_rails_tut: "Ruby on Rails Tutorial"
+  ruby_on_rails_tut_author: "Michael Hartl"
+
+  static_pages:
+    about:
+      and: "と"
+      about_title: "アブー"
+      book: "本"
+      description_title: "チュートリアルのサンプルアプリです。"
+      heading: "アブー"
+      message: "この Ruby on Rails Tutorial"
+      part: ", 一部分"
+      family: "チュートリアルのファミリーは"
+      screen: "スクリーンキャストシリーズ"
+      learn: "Learn Enough"
+      teach: "でWeb開発を教えるために"
+    contact:
+      contact_title: "コンタクト"
+      description_title: "サンプルアプリについては、Ruby on Railsチュートリアルにお問い合わせください。"
+      heading: "コンタクト"
+      ruby_on_rails_contact: "コンタクトページ。"
+    help:
+      description_detail: "このサンプルアプリのヘルプは"
+      description_title: "Ruby on Rails チュートリアルのヘルプは"
+      heading: "サービス"
+      help_title: "サービス"
+    home:
+      description_detail: "サンプルアプリケーション"
+      description_title: "このホームページは"
+      heading: "サンプルアプリ"
+      home_title: "ホーム"
+      sign_up_button: "今すぐ登録!"
+
+  users:
+    user_not_found: "ユーザーが見つかりませんでした。"
+    new:
+      confirmation: "確認事項"
+      signup_create: "アカウントの作成"
+      signup_title: "サインアップ"
+      heading: "サインアップ"
+    create:
+      fail_mess_create: "アカウント作成に失敗。"
+      success_mess_create: "サンプルアプリへようこそ!"
