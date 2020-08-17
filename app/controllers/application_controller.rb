@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
+  include SessionsHelper
+
   before_action :switch_locale
   # it run around all action run. this is filter action technical
 

@@ -11,11 +11,16 @@ en:
       description_detail: "by"
       new_footer: "News"
     header:
+      account: "Account"
       logo: "sample app"
       help_header: "Help"
       home_header: "Home"
+      language: "Language"
       login_header: "Log in"
-
+      log_out_header: "Log out"
+      profile_header: "Profile"
+      setting_header: "Settings"
+      users_header: "Users"
 
   ruby_on_rails: "Ruby on Rails"
   ruby_on_rails_book: "Ruby on Rails Tutorial book."
@@ -52,6 +57,17 @@ en:
       heading: "Sample App"
       home_title: "Home"
       sign_up_button: "Sign up now!"
+
+  sessions:
+    new:
+      heading: "Log in"
+      login: "Log in"
+      login_title: "Login"
+      btn_signup: "New user?"
+      password: "Password"
+      signup_now: Sign up now!
+    create:
+      create_fail: "Invalid email/password combination"
 
   users:
     user_not_found: "User not found"
