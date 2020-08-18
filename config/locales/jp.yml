@@ -72,7 +72,21 @@ jp:
 
   users:
     user_not_found: "ユーザーが見つかりませんでした。"
+    login_remind: "ログインしてください。"
+    destroy:
+      success_mess_delete: "ユーザーが削除しました。"
+      fail_mess_delete: "ユーザーの削除に失敗しました。"
+    edit:
+      change_link: "変更"
+      change_btn: "変更"
+      edit_create: "変更内容の保存"
+      edit_title: "編集ユーザー"
+      heading: "プロフィールの更新"
+    index:
+      heading: "全ユーザー"
+      index_title: "全ユーザー"
     new:
+      description_title: "新規ユーザーのためのサインアップページになります。"
       confirmation: "確認事項"
       signup_create: "アカウントの作成"
       signup_title: "サインアップ"
@@ -80,3 +94,9 @@ jp:
     create:
       fail_mess_create: "アカウント作成に失敗。"
       success_mess_create: "サンプルアプリへようこそ!"
+    update:
+      fail_mess_update: "プロフィールの更新に失敗しました。"
+      success_mess_update: "プロフィールを更新しました。"
+    user:
+      confirm: "確かに？"
+      delete_link: "削除"
