@@ -11,11 +11,16 @@ jp:
       description_detail: "をもって"
       new_footer: " ニュー "
     header:
+      account: "アカウント"
       logo: "サンプルアプリ"
       help_header: "サービス"
       home_header: "ホーム"
+      language: "言語"
       login_header: "ログイン"
-
+      log_out_header: "ログアウト"
+      profile_header: "プロフィール"
+      setting_header: "設定"
+      users_header: "ユーザー"
 
   ruby_on_rails: "Ruby on Rails"
   ruby_on_rails_book: "Ruby on Rails Tutorial 本。"
@@ -52,6 +57,17 @@ jp:
       heading: "サンプルアプリ"
       home_title: "ホーム"
       sign_up_button: "今すぐ登録!"
+
+  sessions:
+    new:
+      heading: "ログイン"
+      login: "ログイン"
+      login_title: "ログイン"
+      btn_signup: "新しいユーザー?"
+      password: "パスワード"
+      signup_now: "今すぐ登録!"
+    create:
+      create_fail: "無効な電子メール/パスワードの組み合わせ"
 
   users:
     user_not_found: "ユーザーが見つかりませんでした。"
