@@ -66,6 +66,7 @@ en:
       btn_signup: "New user?"
       password: "Password"
       signup_now: Sign up now!
+      remember_me: "Remember me on this computer"
     create:
       create_fail: "Invalid email/password combination"
 

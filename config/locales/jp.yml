@@ -66,6 +66,7 @@ jp:
       btn_signup: "新しいユーザー?"
       password: "パスワード"
       signup_now: "今すぐ登録!"
+      remember_me: "このコンピューターで私を覚えています"
     create:
       create_fail: "無効な電子メール/パスワードの組み合わせ"
 
