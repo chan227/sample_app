@@ -11,11 +11,13 @@ class User < ApplicationRecord
     uniqueness: true
 
   validates :password, presence: true,
-    length: { minimum: Settings.validations.password.min_length }
+    length: { minimum: Settings.validations.password.min_length }, allow_nil: true
 
   has_secure_password
 
   before_save { email.downcase! }
+
+  scope :sort_by_name, ->{order:name}
 
   def User.digest(string)
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :

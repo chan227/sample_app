@@ -1,4 +1,10 @@
-20.times do |n|
+User.create!(name: "Example User",
+            email: "example@railstutorial.org",
+            password: "foobar",
+            password_confirmation: "foobar",
+            admin: true)
+
+99.times do |n|
   name = Faker::Name.name
   email = "user_1#{n+1}@gmail.com"
   password = "12345678"
