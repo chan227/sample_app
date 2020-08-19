@@ -1,4 +1,8 @@
 jp:
+  account_activations:
+    active_fail: "無効なアクティベーションリンクです。"
+    active_success: "アカウントが有効になりました!"
+
   hello: "こんにちは"
 
   layouts:
@@ -68,6 +72,7 @@ jp:
       signup_now: "今すぐ登録!"
       remember_me: "このコンピューターで私を覚えています"
     create:
+      create_alert: "アカウントが有効化されていません。アクティベーションリンクのメールを確認してください。"
       create_fail: "無効な電子メール/パスワードの組み合わせ"
 
   users:
@@ -93,6 +98,7 @@ jp:
       heading: "サインアップ"
     create:
       fail_mess_create: "アカウント作成に失敗。"
+      info_mail: "アカウントを有効にするには、メールをご確認ください。"
       success_mess_create: "サンプルアプリへようこそ!"
     update:
       fail_mess_update: "プロフィールの更新に失敗しました。"
@@ -100,3 +106,15 @@ jp:
     user:
       confirm: "確かに？"
       delete_link: "削除"
+
+  user_mailer:
+    account_activation:
+      activate_link: "アクティベート"
+      heading: "サンプルアプリ"
+      hello: "ハイ"
+      mail_active: "アカウントの活性化。"
+      introduce: "サンプルアプリへようこそ 下記のリンクをクリックしてアカウントを有効化してください。"
+    password_reset:
+      heading: "パスワード再設定"
+      reset_link: "リセットパスワード"
+      reset_title: "パスワードをリセットするには、以下のリンクをクリックしてください。"
