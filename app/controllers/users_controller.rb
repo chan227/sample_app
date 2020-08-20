@@ -8,9 +8,9 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
-      flash[:success] = t ".success_mess_create"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".info_mail"
+      redirect_to root_path
     else
       flash.now[:danger] = t ".fail_mess_create"
       render :new
