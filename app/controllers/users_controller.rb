@@ -27,7 +27,9 @@ class UsersController < ApplicationController
     @users = User.sort_by_name.paginate page: params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate page: params[:page]
+  end
 
   def update
     if @user.update user_params
