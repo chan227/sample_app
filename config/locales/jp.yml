@@ -64,6 +64,7 @@ jp:
 
   sessions:
     new:
+      forgot_pass: "(パスワード忘れ)"
       heading: "ログイン"
       login: "ログイン"
       login_title: "ログイン"
@@ -114,7 +115,30 @@ jp:
       hello: "ハイ"
       mail_active: "アカウントの活性化。"
       introduce: "サンプルアプリへようこそ 下記のリンクをクリックしてアカウントを有効化してください。"
+      mail_reset_pass: "パスワード再設定"
     password_reset:
+      mail_reset_pass: "パスワード再設定"
       heading: "パスワード再設定"
       reset_link: "リセットパスワード"
       reset_title: "パスワードをリセットするには、以下のリンクをクリックしてください。"
+      reset_expire: "このリンクは2時間後に有効期限が切れます。"
+      reset_remind: "パスワードの再設定を要求していない場合は、このメールを無視してください。"
+
+  password_resets:
+    create:
+      fail_create: "メールアドレスが見つかりませんでした。"
+      info_mail: "パスワードのリセット方法を記載したメールが送信されました。"
+    new:
+      fail_mess_create: "パスワードのリセットに失敗しました。"
+      forget_create: "送信"
+      forgot_title: "パスワードを忘れた"
+      heading: "パスワードを忘れた"
+    edit:
+      heading: "パスワード再設定"
+      reset_submit: "パスワード更新"
+      reset_title: "パスワード再設定"
+      confirmation: "確認"
+    update:
+      fail_create: "パスワードのリセットに失敗しました。"
+      fail_expired: "パスワードリセットの有効期限が切れました。"
+      success_update: "パスワードがリセットされました。"
