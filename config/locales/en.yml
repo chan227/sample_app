@@ -5,6 +5,11 @@ en:
 
   hello: "Hello world"
 
+  errors:
+    messages:
+      invalid_pic: "must be a valid image format"
+      less_than: "should be less than 5MB"
+
   layouts:
     application:
       title: "Sample App"
@@ -107,6 +112,10 @@ en:
     user:
       confirm: "You sure?"
       delete_link: "Delete"
+    show:
+      prefix_count: "Microposts"
+    logged_in_user:
+      login_remind: "Please log in."
 
   user_mailer:
     account_activation:
@@ -142,3 +151,26 @@ en:
       fail_create: "Password reset fail."
       fail_expired: "Password reset has expired."
       success_update: "Password has been reset."
+
+  microposts:
+    not_found: "No micropost is found"
+    create:
+      fail_mess: "Micropost create fail."
+      success_mess: "Micropost created!"
+    destroy:
+      success_mess: "Micropost deleted."
+      fail_mess: "Failed to delete micropost!"
+    micropost:
+      delete_confirm: "You sure?"
+      delete_link: "Delete"
+      prefix_time: "Posted"
+      suffix_time: "ago."
+
+  shared:
+    micropost_form:
+      alert_detail: "Maximum file size is 5MB. Please choose a smaller file."
+      placeholder: "Compose new micropost..."
+      post_submit: "Post"
+    user_info:
+      profile_link: "View my profile"
+      suffix_count: "micropost"

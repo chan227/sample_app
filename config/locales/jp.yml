@@ -5,6 +5,11 @@ jp:
 
   hello: "こんにちは"
 
+  errors:
+    messages:
+      invalid_pic: "は有効な画像フォーマットでなければなりません。"
+      less_than: "は 5MB 未満でなければなりません。"
+
   layouts:
     application:
       title: "サンプルアプリ"
@@ -107,6 +112,10 @@ jp:
     user:
       confirm: "確かに？"
       delete_link: "削除"
+    show:
+      prefix_count: "マイクロポスト"
+    logged_in_user:
+      login_remind: "ログインしてください。"
 
   user_mailer:
     account_activation:
@@ -142,3 +151,26 @@ jp:
       fail_create: "パスワードのリセットに失敗しました。"
       fail_expired: "パスワードリセットの有効期限が切れました。"
       success_update: "パスワードがリセットされました。"
+
+  microposts:
+    not_found: "マイクロポストは見つかりません"
+    create:
+      fail_mess: "マイクロポスト作成失敗。"
+      success_mess: "マイクロポストを作成しました!"
+    destroy:
+      success_mess: "マイクロポスト削除しました。"
+      fail_mess: "マイクロポストの削除に失敗しました。!"
+    micropost:
+      delete_confirm: "確かに？"
+      delete_link: "削除"
+      prefix_time: "投稿"
+      suffix_time: "前だ。"
+
+  shared:
+    micropost_form:
+      alert_detail: "最大ファイルサイズは5MBです。小さめのファイルを選択してください。"
+      placeholder: "新しいマイクロポストを作成する..."
+      post_submit: "投稿"
+    user_info:
+      profile_link: "プロフィールを表示する"
+      suffix_count: "マイクロポスト"

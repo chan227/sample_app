@@ -18,6 +18,8 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  has_many :microposts, dependent: :destroy
+
   before_save :downcase_email
   before_create :create_activation_digest
 
@@ -65,6 +67,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.password_reset.expired_time.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private
