@@ -66,6 +66,7 @@ en:
       heading: "Sample App"
       home_title: "Home"
       sign_up_button: "Sign up now!"
+      feed_detail: "Micropost Feed"
 
   sessions:
     new:
@@ -116,6 +117,13 @@ en:
       prefix_count: "Microposts"
     logged_in_user:
       login_remind: "Please log in."
+    follow:
+      follow: "Follow"
+    show_follow:
+      microposts: "Microposts:"
+      profile: "view my profile"
+    unfollow:
+      unfollow: "Unfollow"
 
   user_mailer:
     account_activation:
@@ -174,3 +182,11 @@ en:
     user_info:
       profile_link: "View my profile"
       suffix_count: "micropost"
+    stats:
+      followers_html: <strong id="followers" class="stat"> %{count} </strong> Followers
+      following_html: <strong id="following" class="stat"> %{count} </strong> Following
+
+  relationships:
+    index:
+      followers: "Followers"
+      following: "Following"
