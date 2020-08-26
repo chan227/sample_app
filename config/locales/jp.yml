@@ -66,6 +66,7 @@ jp:
       heading: "サンプルアプリ"
       home_title: "ホーム"
       sign_up_button: "今すぐ登録!"
+      feed_detail: "マイクロポストフィード"
 
   sessions:
     new:
@@ -116,6 +117,13 @@ jp:
       prefix_count: "マイクロポスト"
     logged_in_user:
       login_remind: "ログインしてください。"
+    follow:
+      follow: "フォロー"
+    show_follow:
+      microposts: "マイクロポスト:"
+      profile: "プロフィールを表示"
+    unfollow:
+      unfollow: "アンフォロー"
 
   user_mailer:
     account_activation:
@@ -174,3 +182,11 @@ jp:
     user_info:
       profile_link: "プロフィールを表示する"
       suffix_count: "マイクロポスト"
+    stats:
+      followers_html: <strong id="followers" class="stat"> %{count} </strong> Followers
+      following_html: <strong id="following" class="stat"> %{count} </strong> Following
+
+  relationships:
+    index:
+      followers: "フォロワー数"
+      following: "続いて"

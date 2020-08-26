@@ -24,6 +24,7 @@ validations:
 gravartar:
   size_default: 80
   size_list: 50
+  size_mini: 30
 
 password_reset:
   expired_time: 2
